@@ -13,6 +13,7 @@ body {
 
 #headerLinks {
 	margin-left: auto;
+	
 }
 
 header {
@@ -30,13 +31,20 @@ header {
 	background-color: white;
 	color: black;
 	padding: 20px;
-	height: 40px;
+}
+
+.item img {
+	max-width: 100%;
+  	object-fit: contain;
+  	max-height: 100%;
+	
 }
 
 .items {
 	display: grid;
 	gap: 10px;
 	grid-template-columns: 45% 45%;
+	grid-template-rows: auto;
 	padding-left: 18%;
 	padding-top: 20px;
 }
