@@ -21,58 +21,111 @@ header {
 	width: 100%;
 	height: 40px;
 	display: flex;
+	position: fixed;
+	z-index: 2;
+	
 }
 
 #mainWrapper {
 	
 }
 
-.item {
+.container .brands .brand {
 	background-color: white;
 	color: black;
 	padding: 20px;
+	border-radius: 5px;
+	overflow: auto;
 }
 
-.item img {
+.container .brands .brand {
+	text-decoration: none;
+}
+
+.container .brands .brand .content {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .brands .brand .content .info {
+	margin: 1%;
+}
+
+.container .brands .brand .brandName {
+	border-bottom: solid thin #AAAAAA;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 35%;
+}
+
+.container .brand img {
 	max-width: 100%;
   	object-fit: contain;
   	max-height: 100%;
 	
 }
 
-.items {
+.container .brands {
 	display: grid;
 	gap: 10px;
 	grid-template-columns: 45% 45%;
 	grid-template-rows: auto;
 	padding-left: 18%;
-	padding-top: 20px;
+	padding-top: 50px;
 }
 
 .container {
 }
 
-#sidemenu {
+.container #sideMenu {
 	height: 100%; 
 	position: fixed;
 	left: 0;
-  	background-color: #D9D6D6; 
-	width: 15%;
+	top: 0;
+  	background-color: #D9D6D6;
+	width: 14%;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 50px;
 }
 
+/**.carNav {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 10px;
+	gap: 5px;
+}**/
 
+/**.op {
+	background: #D1D1D1;
+	border-radius: 20px;
+	padding: 5px 10px;
+	border: solid #D1D1D1;
+	
+}
 
+.op a {
+	text-decoration: none;
+	color: black
+}**/
 
 @media screen and (min-width:650px) {
-	.items {
+	.brands {
 		grid-template-columns: repeat(2, 48%)
+	}
+	.container .brands .brand .content {
+		display: flex;
+		flex-direction: row;
 	}
 }
 
 @media screen and (min-width:900px) {
-	.items {
+	.brands {
 		grid-template-columns: repeat(4, 24%)
+	}
+	.container .brands .brand .content {
+		display: flex;
+		flex-direction: row;
 	}
 }
