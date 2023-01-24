@@ -3,12 +3,16 @@
 	padding: 0;
 }
 body {
-	background: #9A9A9A;
 	margin: 0;
 }
 
 #logo {
 	font-size: 36px;
+	padding: 5px 0px 0px 10px;
+	color: white;
+	border-bottom: dashed white;
+	border-right: dashed white;
+	width: 13.25%;
 }
 
 #headerLinks {
@@ -17,13 +21,13 @@ body {
 }
 
 header {
-	background: #FFFFFF;
+	background: rgba(62,165,217,1.00);
 	width: 100%;
-	height: 40px;
+	height: 50px;
 	display: flex;
 	position: fixed;
 	z-index: 2;
-	
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.17);
 }
 
 #mainWrapper {
@@ -36,10 +40,8 @@ header {
 	padding: 20px;
 	border-radius: 5px;
 	overflow: auto;
-}
-
-.container .brands .brand {
 	text-decoration: none;
+	
 }
 
 .container .brands .brand .content {
@@ -68,13 +70,16 @@ header {
 .container .brands {
 	display: grid;
 	gap: 10px;
-	grid-template-columns: 45% 45%;
+	grid-template-columns: 20% 20% 20% 20%;
 	grid-template-rows: auto;
 	padding-left: 18%;
-	padding-top: 50px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	justify-items: left;
 }
 
 .container {
+	background:rgba(229,229,229,1.00);
 }
 
 .container #sideMenu {
@@ -82,10 +87,14 @@ header {
 	position: fixed;
 	left: 0;
 	top: 0;
-  	background-color: #D9D6D6;
+  	background-color: rgba(109,178,212,1.00);
 	width: 14%;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 60px;
+}
+
+.container #sideMenu h2 {
+	
 }
 
 /**.carNav {
@@ -122,7 +131,7 @@ header {
 
 @media screen and (min-width:900px) {
 	.brands {
-		grid-template-columns: repeat(4, 24%)
+		grid-template-columns: repeat(6, 10%)
 	}
 	.container .brands .brand .content {
 		display: flex;
