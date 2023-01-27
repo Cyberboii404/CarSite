@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.container .cars {
+	grid-template-columns: 25% 25%;
+	
+}
+
+.container .cars .car {
+	
+}
+
+.carHeaderLine {
+	border-top: solid rgba(62,165,217,1.00);
+	border-bottom: none;
+}
+
+@media screen and (min-width:650px) {
+	.mainWrapper .container .cars {
+		grid-template-columns: 30% 30% 30%;
+	}
+	
+}
+
+/**desktop**/
+@media screen and (min-width:900px) {
+	.mainWrapper .container .cars {
+		grid-template-columns: 100%;
+	}
+	
+}

@@ -1,0 +1,16 @@
+/* CSS Document */
+
+@media screen and (min-width:650px) {
+	.mainWrapper .container .cars {
+		grid-template-columns: 30% 30% 30%;
+	}
+	
+}
+
+/**desktop**/
+@media screen and (min-width:900px) {
+	.mainWrapper .container .cars {
+		grid-template-columns: 100%;
+	}
+	
+}
