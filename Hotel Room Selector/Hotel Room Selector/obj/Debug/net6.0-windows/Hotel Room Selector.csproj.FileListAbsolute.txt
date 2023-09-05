@@ -1,0 +1,16 @@
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\bin\Debug\net6.0-windows\Hotel Room Selector.exe
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\bin\Debug\net6.0-windows\Hotel Room Selector.deps.json
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\bin\Debug\net6.0-windows\Hotel Room Selector.runtimeconfig.json
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\bin\Debug\net6.0-windows\Hotel Room Selector.dll
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\bin\Debug\net6.0-windows\Hotel Room Selector.pdb
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel_Room_Selector.Selector.resources
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.csproj.GenerateResource.cache
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.AssemblyInfoInputs.cache
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.AssemblyInfo.cs
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.csproj.CoreCompileInputs.cache
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.dll
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\refint\Hotel Room Selector.dll
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.pdb
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\Hotel Room Selector.genruntimeconfig.cache
+C:\Users\Ethan.Cooper6147\Desktop\Hotel Room Selector\Hotel Room Selector\obj\Debug\net6.0-windows\ref\Hotel Room Selector.dll
